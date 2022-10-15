@@ -41,8 +41,8 @@ window.addEventListener('load', () => {
 
 let illusBtn = document.getElementById('illusBtn')
 illusBtn.addEventListener('click', () => onNavigate("/"))
-let kidlitBtn = document.getElementById('kidlitBtn')
-kidlitBtn.addEventListener('click', () => onNavigate("/"))
+//let kidlitBtn = document.getElementById('kidlitBtn')
+//kidlitBtn.addEventListener('click', () => onNavigate("/"))
 let contactBtn = document.getElementById('contactBtn')
 contactBtn.addEventListener('click', () => onNavigate("/contact"))
 let aboutBtn = document.getElementById('aboutBtn')
@@ -56,7 +56,7 @@ let btnLanguage = document.getElementById('language')
 btnLanguage.addEventListener('click', () => {
   if (btnLanguage.textContent === 'EN') {
     illusBtn.textContent = 'Illustration'
-    kidlitBtn.textContent = 'Kidlit'
+    //kidlitBtn.textContent = 'Kidlit'
     contactBtn.textContent = 'Contact'
     aboutBtn.textContent = 'About'
     let content = document.getElementById('content')
@@ -73,7 +73,7 @@ btnLanguage.addEventListener('click', () => {
     console.log('click1')
   } else if (btnLanguage.textContent === 'ES') {
     illusBtn.textContent = 'Ilustración'
-    kidlitBtn.textContent = 'Infantil'
+    //kidlitBtn.textContent = 'Infantil'
     contactBtn.textContent = 'Contacto'
     aboutBtn.textContent = 'Acerca'
     let content = document.getElementById('content')
