@@ -45,6 +45,11 @@ export default {
             'name': 'Citric Sunset',
             'img': '../img/11.png',
             'text': 'One more of my awesome illustrations'
+        },
+        {
+            'name': 'Intergalactic snack',
+            'img': '../img/test.png',
+            'text': 'One more of my awesome illustrations'
         }
     ],
     'books': [
