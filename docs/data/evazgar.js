@@ -47,7 +47,7 @@ export default {
             'text': 'One more of my awesome illustrations'
         },
         {
-            'name': 'Intergalactic snack',
+            'name': 'intergalactic snack',
             'img': '../img/test.png',
             'text': 'One more of my awesome illustrations'
         }
