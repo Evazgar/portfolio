@@ -2,15 +2,23 @@
   "name": "evazgar",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve -s ./"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "firebase",
+    "jest"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.0.1"
+  },
+  "devDependencies": {
+    "firebase": "^9.12.1",
+    "firebase-tools": "^11.14.4"
   }
 }
