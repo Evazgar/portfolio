@@ -1,5 +1,5 @@
 export default {
-    'logo': '../img/LOGO.png',
+    'logo': './img/LOGO.png',
     'illustrations': [
         {
             'name': 'Sonnenlicht Walzer',
