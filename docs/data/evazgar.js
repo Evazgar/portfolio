@@ -69,6 +69,23 @@ export default {
     'contact': {
         'img': '../img/4.png',
         'email': "evazgar.anim@gmail.com",
+        'socials': [
+            {
+                'name': 'twitter',
+                'link': 'https://twitter.com/Evazgar',
+                "img": '../img/twitter.png'
+            },
+            {
+                'name': 'instagram',
+                'link': 'https://www.instagram.com/evazgar.dsgn/',
+                "img": '../img/instagram.png'
+            },
+            {
+                'name': 'tumblr',
+                'link': 'https://evazgar.tumblr.com/',
+                "img": '../img/tumblr.png'
+            }
+        ],
         'ES': {
             'title': 'Contacto',
             'content': "Me gustaría saber sobre ustedes o sus proyectos. Escribanme un correo:"

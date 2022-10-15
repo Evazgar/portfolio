@@ -96,6 +96,7 @@ header {
         right: 15px;
         padding: 5px;
     }
+
     #imgContainer {
         grid-template-columns: 100%;
     }
@@ -147,7 +148,7 @@ header {
     filter: blur(4px);
 }
 
-#imgName{
+#imgName {
     text-align: center;
 }
 
@@ -190,7 +191,8 @@ header {
 #content {
     margin: 0 30px 0 30px;
 }
-#email{
+
+#email {
     margin: 30px 30px 0 30px;
     color: #5AA1C1;
     text-decoration: underline;
@@ -208,6 +210,24 @@ header {
     margin: 30px 30px 0 0;
     width: 300px;
     height: 300px;
+}
+
+.socialsContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 50px 0 0 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.socialImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+#containerOfSocials{
+    height: 10%;
+    width: 30%;
 }
 
 @media (max-width: 750px) {
@@ -243,7 +263,23 @@ header {
         justify-content: center;
         margin: 0 0 30px 0;
     }
-    #content, #email{
+
+    #content,
+    #email {
         text-align: center;
+    }
+    .socialsContainer {
+        justify-content: center;
+        margin: 0;
+    }
+    #containerOfSocials{
+        display: flex;
+        justify-content: center;        
+        width: 100%;
+        margin-top: 30px;
+    }
+    .socialImage {
+        max-width: 100%;
+        max-height: 100%;
     }
 }

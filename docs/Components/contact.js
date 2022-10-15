@@ -25,10 +25,31 @@ export const contact =(language) => {
     containerOfRight.id = 'containerOfRight'
     const rightContainer = document.createElement('div')
     rightContainer.id = 'rightContainter'
-    rightContainer.append(title, content, email)
+
+    const containerOfSocials = document.createElement('div')
+    containerOfSocials.id = 'containerOfSocials'
+    const socialsContainer = document.createElement('div') 
+    socialsContainer.className = 'socialsContainer'
+    socials(data.contact.socials, socialsContainer)
+    containerOfSocials.appendChild(socialsContainer)
+    rightContainer.append(title, content, email, containerOfSocials)
     containerOfRight.appendChild(rightContainer)
+
+
     section.append(leftContainer, containerOfRight)
 
 
     return section
+}
+
+const socials = (dataFilter, toAppend) => {
+    dataFilter.forEach(element => {
+        const social = document.createElement('img')
+        social.src = element.img
+        social.className = 'socialImage'
+        toAppend.appendChild(social)
+        social.addEventListener('click', ()=> {
+            window.open(element.link, '_blank');
+        })
+    })
 }
