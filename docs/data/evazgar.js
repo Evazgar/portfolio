@@ -48,7 +48,7 @@ export default {
         },
         {
             'name': 'intergalactic snack',
-            'img': '../img/test.png',
+            'img': '../img/12.png',
             'text': 'One more of my awesome illustrations'
         }
     ],
