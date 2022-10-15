@@ -31,6 +31,7 @@ window.onpopstate = () => {
 
 }
 
+let btnLanguage = document.getElementById('language')
 window.addEventListener('load', () => {
   const root = document.getElementById('root')
   const component = routes[window.location.pathname]
@@ -52,7 +53,6 @@ aboutBtn.addEventListener('click', () => {
 })
 
 
-let btnLanguage = document.getElementById('language')
 btnLanguage.addEventListener('click', () => {
   if (btnLanguage.textContent === 'EN') {
     illusBtn.textContent = 'Illustration'
