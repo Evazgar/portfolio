@@ -79,11 +79,6 @@ export default {
                 'name': 'instagram',
                 'link': 'https://www.instagram.com/evazgar.dsgn/',
                 "img": '../img/instagram.png'
-            },
-            {
-                'name': 'tumblr',
-                'link': 'https://evazgar.tumblr.com/',
-                "img": '../img/tumblr.png'
             }
         ],
         'ES': {
