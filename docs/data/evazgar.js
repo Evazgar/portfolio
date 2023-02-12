@@ -3,52 +3,72 @@ export default {
     'illustrations': [
         {
             'name': 'Sonnenlicht Walzer',
-            'img': '../img/1.png',
+            'img': '../img/fish.png',
             'text': 'This is one of my awesome illustrations'
         },
         {
+            'name': 'Childhood Week: Monsters',
+            'img': '../img/monsters.png',
+            'text': 'One more of my awesome illustrations'
+        },
+        {
+            'name': 'Childhood Week: Sky',
+            'img': '../img/car window.png',
+            'text': 'One more of my awesome illustrations'
+        },
+        {
+            'name': 'Childhood Week: Smell',
+            'img': '../img/cookie.png',
+            'text': 'One more of my awesome illustrations'
+        },
+        {
+            'name': 'Childhood Week: Favorite',
+            'img': '../img/bodoque.png',
+            'text': 'One more of my awesome illustrations'
+        },
+        {
+            'name': 'Childhood Week: Together',
+            'img': '../img/together.png',
+            'text': 'One more of my awesome illustrations'
+        },
+        {
+            'name': 'Merry Christmas from Quetzalcoatl!',
+            'img': '../img/quetz.png',
+            'text': 'One more of my awesome illustrations'
+        },
+        {
             'name': 'Moth in Moonlight',
-            'img': '../img/4.png',
+            'img': '../img/sky.png',
             'text': 'Another one of my awesome illustrations'
         },
         {
             'name': 'A good night to fly',
-            'img': '../img/5.png',
+            'img': '../img/nim.png',
             'text': 'The third one of my awesome illustrations'
         },
         {
-            'name': 'Underwater grump',
-            'img': '../img/6.png',
-            'text': 'One more of my awesome illustrations'
-        },
-        {
             'name': 'Hidden Forest',
-            'img': '../img/7.png',
+            'img': '../img/sky2.png',
             'text': 'One more of my awesome illustrations'
         },
         {
             'name': 'Rat Bishop',
-            'img': '../img/8.png',
+            'img': '../img/rat.png',
             'text': 'One more of my awesome illustrations'
         },
         {
             'name': 'The Autumn Winds',
-            'img': '../img/9.png',
-            'text': 'One more of my awesome illustrations'
-        },
-        {
-            'name': 'Sleep well, singer in the storm',
-            'img': '../img/10.png',
+            'img': '../img/samurai.png',
             'text': 'One more of my awesome illustrations'
         },
         {
             'name': 'Citric Sunset',
-            'img': '../img/11.png',
+            'img': '../img/lemon.png',
             'text': 'One more of my awesome illustrations'
         },
         {
             'name': 'intergalactic snack',
-            'img': '../img/12.png',
+            'img': '../img/cuili.png',
             'text': 'One more of my awesome illustrations'
         }
     ],
