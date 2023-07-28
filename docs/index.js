@@ -1,10 +1,12 @@
 import { about } from "./Components/about.js";
 import { contact } from "./Components/contact.js";
 import { illustrations } from "./Components/illustration.js";
+import { character } from "./Components/character.js";
 import data from './data/evazgar.js'
 
 const routes = {
   '/': illustrations,
+  '/character': character,
   '/about': about,
   '/contact': contact
 }
@@ -42,6 +44,8 @@ window.addEventListener('load', () => {
 
 let illusBtn = document.getElementById('illusBtn')
 illusBtn.addEventListener('click', () => onNavigate("/"))
+let characterBtn = document.getElementById('characterBtn')
+characterBtn.addEventListener('click', () => onNavigate("/character"))
 //let kidlitBtn = document.getElementById('kidlitBtn')
 //kidlitBtn.addEventListener('click', () => onNavigate("/"))
 let contactBtn = document.getElementById('contactBtn')
@@ -56,6 +60,7 @@ aboutBtn.addEventListener('click', () => {
 btnLanguage.addEventListener('click', () => {
   if (btnLanguage.textContent === 'EN') {
     illusBtn.textContent = 'Illustration'
+    characterBtn.textContent = 'Character Design'
     //kidlitBtn.textContent = 'Kidlit'
     contactBtn.textContent = 'Contact'
     aboutBtn.textContent = 'About'
@@ -73,6 +78,7 @@ btnLanguage.addEventListener('click', () => {
     console.log('click1')
   } else if (btnLanguage.textContent === 'ES') {
     illusBtn.textContent = 'Ilustración'
+    characterBtn.textContent = 'Diseño de personajes'
     //kidlitBtn.textContent = 'Infantil'
     contactBtn.textContent = 'Contacto'
     aboutBtn.textContent = 'Acerca'

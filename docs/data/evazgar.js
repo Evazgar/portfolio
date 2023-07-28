@@ -72,6 +72,23 @@ export default {
             'text': 'One more of my awesome illustrations'
         }
     ],
+    'characters': [
+        {
+            'name': 'Aranoso',
+            'img': '../img/Aranoso.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'Astla',
+            'img': '../img/Astla.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'Katu',
+            'img': '../img/Katu.png',
+            'text': 'This is one of my awesome characters'
+        },
+    ],
     'books': [
 
     ],
