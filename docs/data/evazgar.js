@@ -74,18 +74,53 @@ export default {
     ],
     'characters': [
         {
-            'name': 'Aranoso',
-            'img': '../img/Aranoso.png',
+            'name': 'PORTADA',
+            'img': '../img/1-PORTADA.png',
             'text': 'This is one of my awesome characters'
         },
         {
-            'name': 'Astla',
-            'img': '../img/Astla.png',
+            'name': 'ASTLA',
+            'img': '../img/2-ASTLA.png',
             'text': 'This is one of my awesome characters'
         },
         {
-            'name': 'Katu',
-            'img': '../img/Katu.png',
+            'name': 'ASTLAPOSES',
+            'img': '../img/3-ASTLAPOSES.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'KATU',
+            'img': '../img/4-KATU.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'BRUJOS',
+            'img': '../img/5-BRUJOS.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'BRUJOS2',
+            'img': '../img/6-BRUJOSKETCH.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'NOVA',
+            'img': '../img/7-NOVA.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'TALVEZ',
+            'img': '../img/8-TALVEZ.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'PRINCIPE',
+            'img': '../img/9-TALVEZCARAS.png',
+            'text': 'This is one of my awesome characters'
+        },
+        {
+            'name': 'CONTRAPORTADA',
+            'img': '../img/10-CONTRAPORTADA.png',
             'text': 'This is one of my awesome characters'
         },
     ],
